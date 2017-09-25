@@ -18,7 +18,7 @@ public class ResultUtils {
         return success(null);
     }
 
-    public static Result error(Integer code,String desc){
+    public static Result error(String code, String desc){
         Result result = new Result();
         result.setResCode(code);
         result.setResDesc(desc);
